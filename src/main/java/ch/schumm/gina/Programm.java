@@ -8,7 +8,16 @@ package ch.schumm.gina;
 public class Programm {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Zeugnis ritasZeugnis = new Zeugnis(); 
+		
+		ritasZeugnis.name = "Rita"; 
+		
+		ritasZeugnis.deutsch = 5; 
+		ritasZeugnis.mathe = 6; 
+		ritasZeugnis.franz = 4; 
+		ritasZeugnis.englisch = 5.5; 
+		
+		System.out.println(ritasZeugnis.berechneDurchschnitt());
 
 	}
 

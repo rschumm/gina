@@ -3,7 +3,7 @@ package ch.schumm.gina;
 public class Zeugnis {
 	
 	
-	public Zeugnis(float deutsch, float mathe, float franz, float englisch) {
+	public Zeugnis(double deutsch, double mathe, double franz, double englisch) {
 		super();
 		this.deutsch = deutsch;
 		this.mathe = mathe;
@@ -16,16 +16,16 @@ public class Zeugnis {
 	}
 
 
-	public float mathe; 
-	public float franz; 
-	public float englisch; 
-	public float deutsch; 
+	public double mathe; 
+	public double franz; 
+	public double englisch; 
+	public double deutsch; 
 	
 	public String name; 
 	
 	
-	public float berechneDurchschnitt(){
-		float durchschnitt = 0;
+	public double berechneDurchschnitt(){
+		double durchschnitt = 0;
 		durchschnitt = (2 * mathe + 2 * deutsch + englisch + franz) / 6; 
 		return durchschnitt; 
 	}

@@ -16,13 +16,13 @@ public class Klassenzeugnis {
 		return bestesZeugnis.name; 
 	}
 	
-	public float getBesterDurchschnitt(){
+	public double getBesterDurchschnitt(){
 		Zeugnis bestesZeugnis = sucheBestesZeugnis();
 		return bestesZeugnis.berechneDurchschnitt(); 
 	}
 
 	private Zeugnis sucheBestesZeugnis() {
-		float bisJetztBesterDurchschnitt = 0; 
+		double bisJetztBesterDurchschnitt = 0; 
 		Zeugnis bestesZeugnis = null; 
 		for (Zeugnis zeugnis : zeugnisse) {
 			if (zeugnis.berechneDurchschnitt() > bisJetztBesterDurchschnitt){
