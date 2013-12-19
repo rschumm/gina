@@ -3,6 +3,14 @@ package ch.schumm.gina;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Diese Klasse modelliert ein Klassenzeugnis, sozusagen alle Zeugnisse einer Klasse.<br>
+ * Diese Klasse aggregiert alles Zeugnisse einer Klasse und kann der/die beste einer Klasse herausfinden - und 
+ * den besten Durchschnitt.  
+ * 
+ * @author Rémy Schumm
+ *
+ */
 public class Klassenzeugnis {
 	
 	private List<Zeugnis> zeugnisse = new ArrayList<Zeugnis>(); 

@@ -1,7 +1,10 @@
 package ch.schumm.gina;
 
 /**
- * Hauptklasse fÃ¼r die Steuerung des Programms. 
+ * Hauptklasse fÃ¼r die Steuerung des Programms. <br>
+ * Diese Klasse ist eine spezielle Klasse, die die Kontrolle über dieses erste kleine Programm übernimmt. <br>
+ * Das Betriebsystem des Computers (bzw. die JVM) schickt dieser Klasse die Meldung <code>main(...);</code>, um 
+ * das Programm zu starten (das ist Abmachung).  
  * @author rschumm
  *
  */

@@ -1,5 +1,14 @@
 package ch.schumm.gina;
 
+/**
+ * Dies ist die Klasse für alle Zeugnisse. Eine Instanz dieser Klasse - sprich: ein Objekt davon - ist ein 
+ * individuelles Zeugnis, z.B. das Zeugnis von Hans: <code>Zeugnis hansZeugnis = new Zeugnis();</code> <br>
+ * Dieses Zeugnis kann selbst seinen Durchschnitt ausrechnen, wenn man ihm die Nachricht <code>berechneDurchschnitt();</code>
+ * schickt. 
+ * 
+ * @author Rémy Schumm
+ *
+ */
 public class Zeugnis {
 	
 	

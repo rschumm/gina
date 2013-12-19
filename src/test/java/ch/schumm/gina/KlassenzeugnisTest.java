@@ -7,20 +7,20 @@ import org.junit.Test;
 
 public class KlassenzeugnisTest {
 
-	private Zeugnis hans;
-	private Zeugnis rita;
+	private Zeugnis hansZeugnis;
+	private Zeugnis ritaZeugnis;
 	private Klassenzeugnis klassenzeugnis;
 
 	@Before
 	public void setUp() throws Exception {
-		hans = new Zeugnis(4, 4, 4, 4); 
-		hans.name = "Hans"; 
-		rita = new Zeugnis(5, 5, 5, 5); 
-		rita.name = "Rita"; 
+		hansZeugnis = new Zeugnis(4, 4, 4, 4); 
+		hansZeugnis.name = "Hans"; 
+		ritaZeugnis = new Zeugnis(5, 5, 5, 5); 
+		ritaZeugnis.name = "Rita"; 
 		
 		klassenzeugnis = new Klassenzeugnis(); 
-		klassenzeugnis.addZeugnis(hans);; 
-		klassenzeugnis.addZeugnis(rita);
+		klassenzeugnis.addZeugnis(hansZeugnis);; 
+		klassenzeugnis.addZeugnis(ritaZeugnis);
 		
 	}
 
